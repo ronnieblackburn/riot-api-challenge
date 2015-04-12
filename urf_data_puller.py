@@ -6,7 +6,7 @@ import operator
 import calendar
 #import glob
 
-key = ""
+key = io.open('key.txt', 'r', encoding='utf-8').readline()
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -41,7 +41,9 @@ def getURFMatches():
 		time.sleep(1.2) #sleep for rito
 
 def main():
+	#print(key)
 	getURFMatches()
+
 
 if __name__ == "__main__":
 	main()
