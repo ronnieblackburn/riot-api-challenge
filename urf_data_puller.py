@@ -6,7 +6,7 @@ import operator
 import calendar
 #import glob
 
-key = "bcbae5b6-f13d-4a30-be96-a061ebb97b52"
+key = ""
 
 pp = pprint.PrettyPrinter(indent=4)
 
